@@ -34,4 +34,27 @@ print('дарова $name tebe $age let');
 print(age);
 print(height);
 print(isSyudent);
+
+
+
+
+String greet(String name){
+  return 'darova, $name';
+}
+
+
+int sqare(int x)=> x*x;
+
+void Pet({required String name, String species = 'cot', int age =0}){
+  print('$name - $species, vozrast $age');
+}
+Pet(name: 'leha',age:12);
+Pet(name: 'barsik',species: 'psina');
+
+
+List<int> numbers = [3,2,5,1,2,3,5];
+numbers.sort((a,b)=> b-a);
+print(numbers);
+
+
 }
