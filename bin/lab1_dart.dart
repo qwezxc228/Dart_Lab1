@@ -164,9 +164,7 @@ void main(){
   students.forEach((name,grades){
     printStatus(name: name, grades: grades);
   });
-  students.forEach((name,grades){
-  printStatus(name:name,grades:grades);
-  });
+
   print('общаяя стат');
   int totalStudents = students.length;
   print('всего студентов: $totalStudents');
