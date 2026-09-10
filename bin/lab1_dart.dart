@@ -59,7 +59,7 @@ void main(){
   List<String> LongNames = names.where((name)=>name.length>4).toList();
   print(LongNames);
 
-  
+
  String greet(String name)=> 'hello, $name';
   int square(int x)=> x*x;
   double half(double x)=>x/2;
@@ -72,5 +72,43 @@ void main(){
     List<int> num = [3,2,1,4];
     num.sort((a,b)=>b-a);
     print(num);
+int score2 = 85;
+String grade;
+if (score2 >= 90){
+  grade='A';
+}
+else if(score2>=75){
+  grade="B";
+}
+else {
+  grade = "C";
+}
+print(grade);
+String res = score >=60 ? 'sdal':'ne sdal';
+print(res);
+for (int i=0;i <5; i++){
+  print(i);
+}
+List<String> fruits3 = ['apple','banan','grudha'];
+for(var fruits in fruits3 ){
+  print(fruits);
+}
+int n=0;
+while (n<3){
+  print(n);
+  n++;
+}
+String day ='pn';
+switch (day){
+  case 'sb':
+  case 'vs':
+  print('vihodnoy');
+  break;
+  case 'pn':
+  print("nachalo nedely");
+  break;
+  default:
+  print('rabochy day');
+}
 
 }
